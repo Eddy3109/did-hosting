@@ -1,1 +1,48 @@
-{"id":"did:web:did.woodgrove.com","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:did.woodgrove.com"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://did.woodgrove.com/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://hub.did.msidentity.com/v1.0/66a75fdc-35ad-42eb-9901-1d3c21efec46"]}}],"verificationMethod":[{"id":"#edf9805af8394dcda833e95cbe66a04evcSigningKey-99a1b","controller":"did:web:did.woodgrove.com","type":"JsonWebKey2020","publicKeyJwk":{"crv":"P-256","kty":"EC","x":"j3ypFxja0JyzA_oWAQDfRfXrfwsplVbnFtkMddOCKvw","y":"5YsHECDmJg6XHnbruKb8N6wD9f65O4rssmBTYSl4ufw"}}],"authentication":["#edf9805af8394dcda833e95cbe66a04evcSigningKey-99a1b"],"assertionMethod":["#edf9805af8394dcda833e95cbe66a04evcSigningKey-99a1b"]}
+{
+  "id": "did:web:did-hosting.pages.dev",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:did-hosting.pages.dev"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://did-hosting.pages.dev/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/66a75fdc-35ad-42eb-9901-1d3c21efec46"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#399f7f3a9f274a9aab8b1030bfedcbdevcSigningKey-2bd86",
+      "controller": "did:web:did-hosting.pages.dev",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "sD1eC4Pc507rCTMy1Bao70PYbHA2USo9330vnT4U294",
+        "y": "1qSKGfWXEodIBSy1iwdBAqmRuYpUrh4wXCwFHWjit-4"
+      }
+    }
+  ],
+  "authentication": [
+    "#399f7f3a9f274a9aab8b1030bfedcbdevcSigningKey-2bd86"
+  ],
+  "assertionMethod": [
+    "#399f7f3a9f274a9aab8b1030bfedcbdevcSigningKey-2bd86"
+  ]
+}
